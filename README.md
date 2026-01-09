@@ -25,11 +25,15 @@ Employees should have an access to a certain panel providing the following funct
 - Write product reviews
 - Write stories about the adventures, discussing the gear that they used.
 
-# Features
+## Features
 The application should have the following features:
 - JWT authentication to ensure many users can interact with it.
 - Simple CRUD operations.
 - Interaction with external services, e.g., Stripe and Shopify
 - A sophisticated data model with products, orders, and other necessary tables.
+
+
+## Software Design
+The codebase should use domain-driven design an apply design patterns where appropiate. The codebase should have a minimum of 80% test coverage and follow SOLID principles.
 
 A complex data model that can handle products, shopping carts, and more.
